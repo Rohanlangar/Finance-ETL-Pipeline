@@ -1,0 +1,25 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+*.local
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Astro / Airflow local runtime files
+.astro/
+airflow.db
+airflow.cfg
+logs/
